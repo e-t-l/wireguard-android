@@ -10,7 +10,11 @@
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28"
         tools:ignore="ScopedStorage" />
-
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS"
+        android:protectionLevel="signature"
+        tools:ignore="ProtectedPermissions" />
+    
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
